@@ -1,3 +1,3 @@
-|Week   |Excel                 |
-|-------|----------------------|
-|1      |Challange Task Data.xlsm|
+|Week   |Excel                 |Power BI                |Python                  |
+|-------|----------------------|------------------------|------------------------|
+|1      |[Excel1]Challange Task Data.xlsm|       |    |
