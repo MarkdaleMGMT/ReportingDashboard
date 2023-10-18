@@ -1,0 +1,349 @@
+smith investments,,,,,,,,,
+General Ledger,,,,,,,,,
+23-May,,,,,,,,,
+,,,,,,,,,
+,Date,Transaction Type,#,Adj,Name,Memo/Description,Split,Amount,Balance
+Cash and Short Term Investments,,,,,,,,,
+   Cash TD,,,,,,,,,
+      1-1000 Cash,,,,,,,,,
+,      Beginning Balance,,,,,,,,100
+      Total for 1-1000 Cash,,,,,,,,      ,
+      1-1015 Cash - 2193XXX Ontario Inc,,,,,,,,,
+,      Beginning Balance,,,,,,,,178.5
+      Total for 1-1015 Cash - 2193XXX Ontario Inc,,,,,,,,      ,
+      1-1020 TD Canada Trust CDN - 1020 XXXXX,,,,,,,,,
+,      Beginning Balance,,,,,,,,"294,944.04"
+,01/05/2023,Journal Entry,2002,No,,banking fees,-Split-,-2,"294,942.04"
+,01/05/2023,Journal Entry,2003,No,,as per BP,-Split-,"-200,000.00","94,942.04"
+,02/05/2023,Journal Entry,2004,No,,JFL fee,-Split-,"-57,773.47","37,168.57"
+,08/05/2023,Journal Entry,1987,No,,ETF CIBC,-Split-,"11,520.00","48,688.57"
+,26/05/2023,Journal Entry,2005,No,,wages,-Split-,"-6,000.00","42,688.57"
+,29/05/2023,Journal Entry,2008,No,,income taxes paid,-Split-,"-23,666.00","19,022.57"
+,29/05/2023,Journal Entry,2007,No,,fx @ 1.3497,-Split-,"161,964.00","180,986.57"
+,29/05/2023,Journal Entry,1989,No,,EFT CIBC,-Split-,"19,800.00","200,786.57"
+,29/05/2023,Journal Entry,2006,No,,misc expense,-Split-,-466.77,"200,319.80"
+,31/05/2023,Journal Entry,2009,No,,person1 note withdraw,-Split-,"-78,000.00","122,319.80"
+,31/05/2023,Journal Entry,2010,No,,banking fees,-Split-,19,"122,338.80"
+,31/05/2023,Journal Entry,2010,No,,banking fees,-Split-,-19,"122,319.80"
+      Total for 1-1020 TD Canada Trust CDN - 1020 XXXXX,,,,,,,,"-$172,624.24",
+      1-1025 TD Canada Trust USD - 1020 XXXXX,,,,,,,,,
+,      Beginning Balance,,,,,,,,"14,235.31"
+,01/05/2023,Journal Entry,1990,No,,EFT CIBC,-Split-,"1,530.00","15,765.31"
+,08/05/2023,Journal Entry,1992,No,,EFT CIBC,-Split-,"17,000.00","32,765.31"
+,15/05/2023,Journal Entry,1999,No,,EFT CIBC,-Split-,"86,340.28","119,105.59"
+,15/05/2023,Journal Entry,1994,No,,EFT CIBC,-Split-,"1,211.25","120,316.84"
+,29/05/2023,Journal Entry,2007,No,,fx @ 1.3497,-Split-,"-120,000.00",316.84
+,31/05/2023,Journal Entry,2011,No,,banking fees,-Split-,-19,297.84
+      Total for 1-1025 TD Canada Trust USD - 1020 XXXXX,,,,,,,,"-$13,937.47",
+      1-1026 FX - TD Canada Trust USD,,,,,,,,,
+,      Beginning Balance,,,,,,,,"58,845.11"
+      Total for 1-1026 FX - TD Canada Trust USD,,,,,,,,      ,
+   Total for Cash TD,,,,,,,,"-$186,561.71",
+   Cash Wood Gundy,,,,,,,,,
+      1-1040 Wood Gundy Cash CDN,,,,,,,,,
+,      Beginning Balance,,,,,,,,"40,999.87"
+,01/05/2023,Journal Entry,1986,No,,TD dividends,-Split-,"11,520.00","52,519.87"
+,08/05/2023,Journal Entry,1987,No,,ETF CIBC,-Split-,"-11,520.00","40,999.87"
+,24/05/2023,Journal Entry,1988,No,,RY dividends,-Split-,"19,800.00","60,799.87"
+,29/05/2023,Journal Entry,1989,No,,EFT CIBC,-Split-,"-19,800.00","40,999.87"
+      Total for 1-1040 Wood Gundy Cash CDN,,,,,,,,$0.00,
+      1-1045 Wood Gundy Cash USD,,,,,,,,,
+,      Beginning Balance,,,,,,,,"5,634.67"
+,01/05/2023,Journal Entry,1990,No,,EFT CIBC,-Split-,"-1,530.00","4,104.67"
+,01/05/2023,Journal Entry,1991,No,,JPM dividends,-Split-,"17,000.00","21,104.67"
+,08/05/2023,Journal Entry,1992,No,,EFT CIBC,-Split-,"-17,000.00","4,104.67"
+,09/05/2023,Journal Entry,1993,No,,MA dividends,-Split-,"1,211.25","5,315.92"
+,15/05/2023,Journal Entry,1997,No,,CL dividends,-Split-,"16,320.00","21,635.92"
+,15/05/2023,Journal Entry,1994,No,,EFT CIBC,-Split-,"-1,211.25","20,424.67"
+,15/05/2023,Journal Entry,1995,No,,ABT dividends,-Split-,"10,837.50","31,262.17"
+,15/05/2023,Journal Entry,1998,No,,PG dividends,-Split-,"34,022.78","65,284.95"
+,15/05/2023,Journal Entry,1999,No,,EFT CIBC,-Split-,"-86,340.28","-21,055.33"
+,15/05/2023,Journal Entry,1996,No,,ABBV dividends,-Split-,"25,160.00","4,104.67"
+,25/05/2023,Journal Entry,2000,No,,redeemed tbills,-Split-,"579,000.00","583,104.67"
+,30/05/2023,Journal Entry,2001,No,,bot tbills,-Split-,"-579,417.66","3,687.01"
+      Total for 1-1045 Wood Gundy Cash USD,,,,,,,,"-$1,947.66",
+      1-1046 FX Wood Gundy Cash USD,,,,,,,,,
+,      Beginning Balance,,,,,,,,6.87
+      Total for 1-1046 FX Wood Gundy Cash USD,,,,,,,,      ,
+   Total for Cash Wood Gundy,,,,,,,,"-$1,947.66",
+   Short Term Investments,,,,,,,,,
+      1-1050 Term Deposits CDN,,,,,,,,,
+         Government of Canada 20/07/23,,,,,,,,,
+,         Beginning Balance,,,,,,,,"140,787.32"
+         Total for Government of Canada 20/07/23,,,,,,,,         ,
+      Total for 1-1050 Term Deposits CDN,,,,,,,,      ,
+      1-1055 Term Deposits USD,,,,,,,,,
+,      Beginning Balance,,,,,,,,"1,873.87"
+         Total for 1-1055 Term Deposits USD,,,,,,,,         ,
+         United States Treasury Bill 25/05/23,,,,,,,,,
+,         Beginning Balance,,,,,,,,"572,636.79"
+,25/05/2023,Journal Entry,2000,No,,redeemed tbills,-Split-,"-572,636.79",0
+         Total for United States Treasury Bill 25/05/23,,,,,,,,"-$572,636.79",
+         United States Treasury Bill 27/07/23,,,,,,,,,
+,         Beginning Balance,,,,,,,,"6,007,532.48"
+         Total for United States Treasury Bill 27/07/23,,,,,,,,         ,
+         United States Treasury Bill 31/08/23,,,,,,,,,
+,30/05/2023,Journal Entry,2001,No,,bot tbills,-Split-,"579,417.66","579,417.66"
+         Total for United States Treasury Bill 31/08/23,,,,,,,,"$579,417.66",
+      Total for 1-1055 Term Deposits USD with subs,,,,,,,,"$6,780.87",
+      1-1056 FX - Term Deposits,,,,,,,,,
+,      Beginning Balance,,,,,,,,"2,383,080.96"
+      Total for 1-1056 FX - Term Deposits,,,,,,,,      ,
+   Total for Short Term Investments,,,,,,,,"$6,780.87",
+Total for Cash and Short Term Investments,,,,,,,,"-$181,728.50",
+Interest Receivable,,,,,,,,,
+   1-1110 Interest Receivable CDN,,,,,,,,,
+,   Beginning Balance,,,,,,,,58.67
+   Total for 1-1110 Interest Receivable CDN,,,,,,,,   ,
+   1-1115 Interest Receivable USD,,,,,,,,,
+,   Beginning Balance,,,,,,,,"58,262.54"
+   Total for 1-1115 Interest Receivable USD,,,,,,,,   ,
+Total for Interest Receivable,,,,,,,,,
+Marketable Securities,,,,,,,,,
+   1-1060 Marketable Securities CDN,,,,,,,,,
+,   Beginning Balance,,,,,,,,"3,708,628.87"
+   Total for 1-1060 Marketable Securities CDN,,,,,,,,   ,
+   1-1065 Marketable Securities USD,,,,,,,,,
+,   Beginning Balance,,,,,,,,"14,190,639.14"
+   Total for 1-1065 Marketable Securities USD,,,,,,,,   ,
+Total for Marketable Securities,,,,,,,,,
+Other Receivable,,,,,,,,,
+   1-1016 Loan to Butterfly,,,,,,,,,
+,   Beginning Balance,,,,,,,,"-3,178,600.00"
+   Total for 1-1016 Loan to Butterfly,,,,,,,,   ,
+   1-1017 Shareholder Loan,,,,,,,,,
+,   Beginning Balance,,,,,,,,"-2,927,804.19"
+   Total for 1-1017 Shareholder Loan,,,,,,,,   ,
+Total for Other Receivable,,,,,,,,,
+Accounts Payable,,,,,,,,,
+   2-2020 Accounts Payable - Klasner Solomon,,,,,,,,,
+,   Beginning Balance,,,,,,,,"15,000.00"
+   Total for 2-2020 Accounts Payable - Klasner Solomon,,,,,,,,   ,
+Total for Accounts Payable,,,,,,,,,
+Taxes Payable,,,,,,,,,
+   2-2010 Taxes Payable,,,,,,,,,
+,   Beginning Balance,,,,,,,,"15,908.00"
+   Total for 2-2010 Taxes Payable,,,,,,,,   ,
+Total for Taxes Payable,,,,,,,,,
+Promissory Notes Payable to Related Parties,,,,,,,,,
+   2-2055 Promissory Note - Person Name1,,,,,,,,,
+,   Beginning Balance,,,,,,,,"2,661,737.00"
+,31/05/2023,Journal Entry,2009,No,,person1 note withdraw,-Split-,"-78,000.00","2,583,737.00"
+   Total for 2-2055 Promissory Note - Person Name1,,,,,,,,"-$78,000.00",
+   2-2060 Promissory Note - Person Name2,,,,,,,,,
+,   Beginning Balance,,,,,,,,"1,024,500.18"
+   Total for 2-2060 Promissory Note - Person Name2,,,,,,,,   ,
+Total for Promissory Notes Payable to Related Parties,,,,,,,,"-$78,000.00",
+3-3800 Retained Earnings - Opening Balance,,,,,,,,,
+,Beginning Balance,,,,,,,,"49,998,219.60"
+Total for 3-3800 Retained Earnings - Opening Balance,,,,,,,,,
+3-3960 Amount of Shares Resulting from FMV,,,,,,,,,
+,Beginning Balance,,,,,,,,"-41,089,234.00"
+Total for 3-3960 Amount of Shares Resulting from FMV,,,,,,,,,
+4-4040 Capital Dividend Account,,,,,,,,,
+,Beginning Balance,,,,,,,,"-260,000.00"
+,01/05/2023,Journal Entry,2003,No,,as per BP,-Split-,"-200,000.00","-460,000.00"
+Total for 4-4040 Capital Dividend Account,,,,,,,,"-$200,000.00",
+Common Shares,,,,,,,,,
+   3-3020 Common Shares,,,,,,,,,
+,   Beginning Balance,,,,,,,,600
+   Total for 3-3020 Common Shares,,,,,,,,   ,
+Total for Common Shares,,,,,,,,,
+Dividend Income,,,,,,,,,
+   4-4020 Dividend Income CDN,,,,,,,,,
+      Dividends - Enbridge,,,,,,,,,
+,      Beginning Balance,,,,,,,,"39,582.50"
+      Total for Dividends - Enbridge,,,,,,,,      ,
+      Dividends - Great-West Lifceco,,,,,,,,,
+,      Beginning Balance,,,,,,,,"6,240.00"
+      Total for Dividends - Great-West Lifceco,,,,,,,,      ,
+      Dividends - Manulife,,,,,,,,,
+,      Beginning Balance,,,,,,,,"10,037.50"
+      Total for Dividends - Manulife,,,,,,,,      ,
+      Dividends - Pembina Pipeline,,,,,,,,,
+,      Beginning Balance,,,,,,,,"12,587.38"
+      Total for Dividends - Pembina Pipeline,,,,,,,,      ,
+   Total for 4-4020 Dividend Income CDN,,,,,,,,   ,
+Total for Dividend Income,,,,,,,,,
+Retained Earnings,,,,,,,,,
+,Beginning Balance,,,,,,,,"8,310,337.38"
+Total for Retained Earnings,,,,,,,,,
+Dividend Income,,,,,,,,,
+   4-4020 Dividend Income CDN,,,,,,,,,
+      Dividends - Royal Bank of Canada,,,,,,,,,
+,      Beginning Balance,,,,,,,,"19,800.00"
+,24/05/2023,Journal Entry,1988,No,,RY dividends,-Split-,"19,800.00","39,600.00"
+      Total for Dividends - Royal Bank of Canada,,,,,,,,"$19,800.00",
+      Dividends - Suncor,,,,,,,,,
+,      Beginning Balance,,,,,,,,"20,280.00"
+      Total for Dividends - Suncor,,,,,,,,      ,
+      Dividends - Thomson Reuters,,,,,,,,,
+,      Beginning Balance,,,,,,,,"9,178.46"
+      Total for Dividends - Thomson Reuters,,,,,,,,      ,
+      Dividends - Toronto Dominion,,,,,,,,,
+,      Beginning Balance,,,,,,,,"11,520.00"
+,01/05/2023,Journal Entry,1986,No,,TD dividends,-Split-,"11,520.00","23,040.00"
+      Total for Dividends - Toronto Dominion,,,,,,,,"$11,520.00",
+   Total for 4-4020 Dividend Income CDN,,,,,,,,"$31,320.00",
+   4-4030 Dividend Income USD,,,,,,,,,
+      Dividends - 3M,,,,,,,,,
+,      Beginning Balance,,,,,,,,"11,250.00"
+      Total for Dividends - 3M,,,,,,,,      ,
+      Dividends - Abbott,,,,,,,,,
+,      Beginning Balance,,,,,,,,"12,750.00"
+,15/05/2023,Journal Entry,1995,No,,ABT dividends,-Split-,"12,750.00","25,500.00"
+      Total for Dividends - Abbott,,,,,,,,"$12,750.00",
+      Dividends - Abbvie,,,,,,,,,
+,      Beginning Balance,,,,,,,,"29,600.00"
+,15/05/2023,Journal Entry,1996,No,,ABBV dividends,-Split-,"29,600.00","59,200.00"
+      Total for Dividends - Abbvie,,,,,,,,"$29,600.00",
+      Dividends - Chevron,,,,,,,,,
+,      Beginning Balance,,,,,,,,"11,325.00"
+      Total for Dividends - Chevron,,,,,,,,      ,
+      Dividends - Coca Cola,,,,,,,,,
+,      Beginning Balance,,,,,,,,"20,240.00"
+      Total for Dividends - Coca Cola,,,,,,,,      ,
+      Dividends - Colgate Palmolive,,,,,,,,,
+,      Beginning Balance,,,,,,,,"18,800.00"
+,15/05/2023,Journal Entry,1997,No,,CL dividends,-Split-,"19,200.00","38,000.00"
+      Total for Dividends - Colgate Palmolive,,,,,,,,"$19,200.00",
+      Dividends - Diageo,,,,,,,,,
+,      Beginning Balance,,,,,,,,"9,193.06"
+      Total for Dividends - Diageo,,,,,,,,      ,
+      Dividends - Duke Energy,,,,,,,,,
+,      Beginning Balance,,,,,,,,"20,100.00"
+      Total for Dividends - Duke Energy,,,,,,,,      ,
+      Dividends - Eli Lilly,,,,,,,,,
+,      Beginning Balance,,,,,,,,"22,600.00"
+      Total for Dividends - Eli Lilly,,,,,,,,      ,
+      Dividends - Emerson Electric,,,,,,,,,
+,      Beginning Balance,,,,,,,,"7,800.00"
+      Total for Dividends - Emerson Electric,,,,,,,,      ,
+      Dividends - Exxon Mobil,,,,,,,,,
+,      Beginning Balance,,,,,,,,"18,710.51"
+      Total for Dividends - Exxon Mobil,,,,,,,,      ,
+      Dividends - International Flavors & Fragrances,,,,,,,,,
+,      Beginning Balance,,,,,,,,"24,300.00"
+      Total for Dividends - International Flavors & Fragrances,,,,,,,,      ,
+      Dividends - Johnson & Johnson,,,,,,,,,
+,      Beginning Balance,,,,,,,,"31,640.00"
+      Total for Dividends - Johnson & Johnson,,,,,,,,      ,
+      Dividends - JP Morgan,,,,,,,,,
+,      Beginning Balance,,,,,,,,"20,000.00"
+,01/05/2023,Journal Entry,1991,No,,JPM dividends,-Split-,"20,000.00","40,000.00"
+      Total for Dividends - JP Morgan,,,,,,,,"$20,000.00",
+      Dividends - Mastercard,,,,,,,,,
+,      Beginning Balance,,,,,,,,"1,425.00"
+,09/05/2023,Journal Entry,1993,No,,MA dividends,-Split-,"1,425.00","2,850.00"
+      Total for Dividends - Mastercard,,,,,,,,"$1,425.00",
+      Dividends - McDonalds,,,,,,,,,
+,      Beginning Balance,,,,,,,,"15,200.00"
+      Total for Dividends - McDonalds,,,,,,,,      ,
+      Dividends - Merck,,,,,,,,,
+,      Beginning Balance,,,,,,,,"36,500.00"
+      Total for Dividends - Merck,,,,,,,,      ,
+      Dividends - Microsoft,,,,,,,,,
+,      Beginning Balance,,,,,,,,"4,420.00"
+      Total for Dividends - Microsoft,,,,,,,,      ,
+      Dividends - Mondelez,,,,,,,,,
+,      Beginning Balance,,,,,,,,"23,977.80"
+      Total for Dividends - Mondelez,,,,,,,,      ,
+      Dividends - Organon & Co,,,,,,,,,
+,      Beginning Balance,,,,,,,,700
+      Total for Dividends - Organon & Co,,,,,,,,      ,
+      Dividends - Pepsico,,,,,,,,,
+,      Beginning Balance,,,,,,,,"76,820.00"
+      Total for Dividends - Pepsico,,,,,,,,      ,
+      Dividends - Pfizer,,,,,,,,,
+,      Beginning Balance,,,,,,,,"17,220.00"
+      Total for Dividends - Pfizer,,,,,,,,      ,
+      Dividends - Proctor & Gamble,,,,,,,,,
+,      Beginning Balance,,,,,,,,"38,860.92"
+,15/05/2023,Journal Entry,1998,No,,PG dividends,-Split-,"40,026.79","78,887.71"
+      Total for Dividends - Proctor & Gamble,,,,,,,,"$40,026.79",
+      Dividends - Royal Dutch Shell,,,,,,,,,
+,      Beginning Balance,,,,,,,,"6,325.00"
+      Total for Dividends - Royal Dutch Shell,,,,,,,,      ,
+      Dividends - Viatris Inc,,,,,,,,,
+,      Beginning Balance,,,,,,,,625.32
+      Total for Dividends - Viatris Inc,,,,,,,,      ,
+      Dividends - Wells Fargo,,,,,,,,,
+,      Beginning Balance,,,,,,,,"9,000.00"
+      Total for Dividends - Wells Fargo,,,,,,,,      ,
+      Dividends - Xcel Energy,,,,,,,,,
+,      Beginning Balance,,,,,,,,"35,262.50"
+      Total for Dividends - Xcel Energy,,,,,,,,      ,
+      Dividends - Zimmer Biomet,,,,,,,,,
+,      Beginning Balance,,,,,,,,"3,600.00"
+      Total for Dividends - Zimmer Biomet,,,,,,,,      ,
+   Total for 4-4030 Dividend Income USD,,,,,,,,"$123,001.79",
+Total for Dividend Income,,,,,,,,"$154,321.79",
+Interest Income,,,,,,,,,
+   4-4010 Interest Income CDN,,,,,,,,,
+,   Beginning Balance,,,,,,,,"1,525.50"
+   Total for 4-4010 Interest Income CDN,,,,,,,,   ,
+   4-4015 Interest Income USD,,,,,,,,,
+,   Beginning Balance,,,,,,,,"129,178.49"
+,25/05/2023,Journal Entry,2000,No,,redeemed tbills,-Split-,"6,363.21","135,541.70"
+   Total for 4-4015 Interest Income USD,,,,,,,,"$6,363.21",
+Total for Interest Income,,,,,,,,"$6,363.21",
+6-6065 US Non-Resident Withholding Tax,,,,,,,,,
+,Beginning Balance,,,,,,,,"76,909.02"
+,01/05/2023,Journal Entry,1991,No,,JPM dividends,-Split-,"3,000.00","79,909.02"
+,09/05/2023,Journal Entry,1993,No,,MA dividends,-Split-,213.75,"80,122.77"
+,15/05/2023,Journal Entry,1995,No,,ABT dividends,-Split-,"1,912.50","82,035.27"
+,15/05/2023,Journal Entry,1997,No,,CL dividends,-Split-,"2,880.00","84,915.27"
+,15/05/2023,Journal Entry,1998,No,,PG dividends,-Split-,"6,004.01","90,919.28"
+,15/05/2023,Journal Entry,1996,No,,ABBV dividends,-Split-,"4,440.00","95,359.28"
+Total for 6-6065 US Non-Resident Withholding Tax,,,,,,,,"$18,450.26",
+Income Taxes,,,,,,,,,
+   6-6020 Income Taxes Paid,,,,,,,,,
+,   Beginning Balance,,,,,,,,"109,486.00"
+,29/05/2023,Journal Entry,2008,No,,income taxes paid,-Split-,"23,666.00","133,152.00"
+   Total for 6-6020 Income Taxes Paid,,,,,,,,"$23,666.00",
+Total for Income Taxes,,,,,,,,"$23,666.00",
+Interest Expense,,,,,,,,,
+   6-6085 Interest Expense CDN,,,,,,,,,
+,   Beginning Balance,,,,,,,,10
+,01/05/2023,Journal Entry,2002,No,,banking fees,-Split-,2,12
+,31/05/2023,Journal Entry,2010,No,,banking fees,-Split-,-19,-7
+,31/05/2023,Journal Entry,2010,No,,banking fees,-Split-,19,12
+   Total for 6-6085 Interest Expense CDN,,,,,,,,$2.00,
+   6-6090 Interest Expense USD,,,,,,,,,
+,   Beginning Balance,,,,,,,,19
+,31/05/2023,Journal Entry,2011,No,,banking fees,-Split-,19,38
+   Total for 6-6090 Interest Expense USD,,,,,,,,$19.00,
+Total for Interest Expense,,,,,,,,$21.00,
+Investment Counsel Fees,,,,,,,,,
+   5-5005 Investment Counsel Fees - JFL,,,,,,,,,
+,   Beginning Balance,,,,,,,,"58,528.19"
+,02/05/2023,Journal Entry,2004,No,,JFL fee,-Split-,"57,773.47","116,301.66"
+   Total for 5-5005 Investment Counsel Fees - JFL,,,,,,,,"$57,773.47",
+Total for Investment Counsel Fees,,,,,,,,"$57,773.47",
+Management & Professional Fees,,,,,,,,,
+   5-5010 Management & Professional Fees,,,,,,,,,
+,   Beginning Balance,,,,,,,,"33,895.48"
+   Total for 5-5010 Management & Professional Fees,,,,,,,,   ,
+   5-5020 Wages,,,,,,,,,
+,   Beginning Balance,,,,,,,,"18,000.00"
+,26/05/2023,Journal Entry,2005,No,,wages,-Split-,"6,000.00","24,000.00"
+   Total for 5-5020 Wages,,,,,,,,"$6,000.00",
+Total for Management & Professional Fees,,,,,,,,"$6,000.00",
+Travel & Miscellaneous,,,,,,,,,
+   6-6070 Miscellaneous Expense CDN,,,,,,,,,
+,   Beginning Balance,,,,,,,,"3,461.29"
+,29/05/2023,Journal Entry,2006,No,,misc expense,-Split-,466.77,"3,928.06"
+   Total for 6-6070 Miscellaneous Expense CDN,,,,,,,,$466.77,
+   6-6075 Miscellaneous Expense USD,,,,,,,,,
+,   Beginning Balance,,,,,,,,"1,593.30"
+   Total for 6-6075 Miscellaneous Expense USD,,,,,,,,   ,
+Total for Travel & Miscellaneous,,,,,,,,$466.77,
+Capital Gain/Loss,,,,,,,,,
+   4-4060 Gain/loss on Foreign Exchange,,,,,,,,,
+,   Beginning Balance,,,,,,,,"208,700.00"
+,29/05/2023,Journal Entry,2007,No,,fx @ 1.3497,-Split-,"41,964.00","250,664.00"
+   Total for 4-4060 Gain/loss on Foreign Exchange,,,,,,,,"$41,964.00",
+Total for Capital Gain/Loss,,,,,,,,"$41,964.00",
+,,,,,,,,,
+,,,,,,,,,
+"Tuesday, Jun. 27, 2023 12:44:09 p.m. GMT-7 - Accrual Basis",,,,,,,,,
