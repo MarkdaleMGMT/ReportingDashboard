@@ -1,0 +1,315 @@
+Sub Calculate_cad_benchmark_QQ_XIRR()
+    Dim wb As Workbook
+    Dim ws As Worksheet
+    
+    ' Set the workbook (Excel file)
+    Set wb = ThisWorkbook ' Assumes the code is in the same workbook
+
+    ' Set the worksheet (tab) within the workbook
+    On Error Resume Next
+    Set ws = wb.Worksheets("Canadian Stocks Benchmark")
+    On Error GoTo 0
+    
+    ' Check if the worksheet was found
+    If ws Is Nothing Then
+        MsgBox "Worksheet 'Canadian Stocks Benchmark' not found in the workbook.", vbExclamation
+        Exit Sub
+    End If
+    
+    Dim lastRow As Long
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    
+    Dim i As Long
+    
+    ' Initialize the row index to start from row 2
+    Dim rowIndex As Long
+    rowIndex = 2
+    
+    For i = 2 To lastRow - 3 Step 1 ' Start from row 2 and increment by 1 (one month)
+        Dim initialDate As Date
+        Dim finalDate As Date
+        Dim initialCashflow As Double
+        Dim finalCashflow As Double
+        Dim cashflows As Variant
+        Dim dates As Variant
+        Dim xirrResult As Double
+        
+        ' Get the initial date and cashflow
+        initialDate = ws.Cells(i, 1).Value
+        initialBalance = -ws.Cells(i, 2).Value
+        
+        ' Get the final date and cashflow
+        finalDate = ws.Cells(i + 3, 1).Value
+        finalBalance = ws.Cells(i + 3, 2).Value
+        
+        ' Create the cash-flow and time arrays
+        cashflows = Array(initialBalance, ws.Cells(i + 1, 3).Value, ws.Cells(i + 2, 3).Value, ws.Cells(i + 3, 3).Value, finalBalance)
+        dates = Array(initialDate, ws.Cells(i + 1, 1).Value, ws.Cells(i + 2, 1).Value, finalDate, finalDate)
+        
+        ' Calculate XIRR using the cash-flow and time arrays
+        xirrResult = Application.WorksheetFunction.Xirr(cashflows, dates)
+        
+        ' Place the XIRR result in the "Q/Q XIRR" column in the corresponding row (with the final date)
+        ws.Cells(i + 3, 4).Value = xirrResult * ((finalDate - initialDate) / 365)
+        
+        ' Increment the row index by 1 for the next set of data
+        rowIndex = rowIndex + 1
+    Next i
+End Sub
+
+
+Sub Calculate_cad_benchmark_YY_XIRR()
+    Dim wb As Workbook
+    Dim ws As Worksheet
+    
+    ' Set the workbook (Excel file)
+    Set wb = ThisWorkbook ' Assumes the code is in the same workbook
+
+    ' Set the worksheet (tab) within the workbook
+    On Error Resume Next
+    Set ws = wb.Worksheets("Canadian Stocks Benchmark")
+    On Error GoTo 0
+    
+    ' Check if the worksheet was found
+    If ws Is Nothing Then
+        MsgBox "Worksheet 'Canadian Stocks Benchmark' not found in the workbook.", vbExclamation
+        Exit Sub
+    End If
+    
+    Dim lastRow As Long
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    
+    Dim i As Long
+    
+    ' Initialize the row index to start from row 2
+    Dim rowIndex As Long
+    rowIndex = 2
+    
+    For i = 2 To lastRow - 12 Step 1 ' Start from row 2 and increment by 1 (one month)
+        Dim initialDate As Date
+        Dim finalDate As Date
+        Dim initialCashflow As Double
+        Dim finalCashflow As Double
+        Dim cashflows As Variant
+        Dim dates As Variant
+        Dim xirrResult As Double
+        
+        ' Get the initial date and cashflow
+        initialDate = ws.Cells(i, 1).Value
+        initialBalance = -ws.Cells(i, 2).Value
+        
+        ' Get the final date and cashflow
+        finalDate = ws.Cells(i + 12, 1).Value
+        finalBalance = ws.Cells(i + 12, 2).Value
+        
+        ' Create the cash-flow and time arrays
+        cashflows = Array(initialBalance, ws.Cells(i + 1, 3).Value, ws.Cells(i + 2, 3).Value, ws.Cells(i + 3, 3).Value, ws.Cells(i + 4, 3).Value, ws.Cells(i + 5, 3).Value, ws.Cells(i + 6, 3).Value, ws.Cells(i + 7, 3).Value, ws.Cells(i + 8, 3).Value, ws.Cells(i + 9, 3).Value, ws.Cells(i + 10, 3).Value, ws.Cells(i + 11, 3).Value, ws.Cells(i + 12, 3).Value, finalBalance)
+        dates = Array(initialDate, ws.Cells(i + 1, 1).Value, ws.Cells(i + 2, 1).Value, ws.Cells(i + 3, 1).Value, ws.Cells(i + 4, 1).Value, ws.Cells(i + 5, 1).Value, ws.Cells(i + 6, 1).Value, ws.Cells(i + 7, 1).Value, ws.Cells(i + 8, 1).Value, ws.Cells(i + 9, 1).Value, ws.Cells(i + 10, 1).Value, ws.Cells(i + 11, 1).Value, finalDate, finalDate)
+        
+        ' Calculate XIRR using the cash-flow and time arrays
+        xirrResult = Application.WorksheetFunction.Xirr(cashflows, dates)
+        
+        ' Place the XIRR result in the "Y/Y XIRR" column in the corresponding row (with the final date)
+        ws.Cells(i + 12, 5).Value = xirrResult * ((finalDate - initialDate) / 365)
+        
+        ' Increment the row index by 1 for the next set of data
+        rowIndex = rowIndex + 1
+    Next i
+
+End Sub
+
+Sub Calculate_cad_benchmark_MM_XIRR()
+    Dim wb As Workbook
+    Dim ws As Worksheet
+    
+    ' Set the workbook (Excel file)
+    Set wb = ThisWorkbook ' Assumes the code is in the same workbook
+
+    ' Set the worksheet (tab) within the workbook
+    On Error Resume Next
+    Set ws = wb.Worksheets("Canadian Stocks Benchmark")
+    On Error GoTo 0
+    
+    ' Check if the worksheet was found
+    If ws Is Nothing Then
+        MsgBox "Worksheet 'Canadian Stocks Benchmark' not found in the workbook.", vbExclamation
+        Exit Sub
+    End If
+    
+    Dim lastRow As Long
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    
+    Dim i As Long
+    Dim rowIndex As Long
+    rowIndex = 2 ' Initialize the row index to start from row 2
+    
+    For i = 2 To lastRow - 1 Step 1 ' Start from row 2 and increment by 1 (one month)
+        Dim initialDate As Date
+        Dim finalDate As Date
+        Dim initialCashflow As Double
+        Dim finalCashflow As Double
+        Dim cashflows As Variant
+        Dim dates As Variant
+        Dim xirrResult As Double
+        
+        ' Get the initial date and cashflow
+        initialDate = ws.Cells(i, 1).Value
+        initialBalance = -ws.Cells(i, 2).Value
+        
+        ' Get the final date and cashflow
+        finalDate = ws.Cells(i + 1, 1).Value
+        finalBalance = ws.Cells(i + 1, 2).Value
+        
+        ' Create the cash-flow and time arrays
+        cashflows = Array(initialBalance, ws.Cells(i + 1, 3).Value, finalBalance)
+        dates = Array(initialDate, finalDate, finalDate)
+
+        ' Calculate XIRR using the cash-flow and time arrays
+        xirrResult = Application.WorksheetFunction.Xirr(cashflows, dates)
+        
+        ' Place the XIRR result in the "Q/Q XIRR" column in the corresponding row (with the final date)
+        ws.Cells(i + 1, 6).Value = xirrResult * ((finalDate - initialDate) / 365)
+        rowIndex = rowIndex + 1 ' Increment the row index by 1 for the next set of data
+    Next i
+End Sub
+
+Sub Calculate_cad_benchmark_QQ_Return()
+    Dim wb As Workbook
+    Dim ws As Worksheet
+    
+    ' Set the workbook (Excel file)
+    Set wb = ThisWorkbook ' Assumes the code is in the same workbook
+
+    ' Set the worksheet (tab) within the workbook
+    On Error Resume Next
+    Set ws = wb.Worksheets("Canadian Stocks Benchmark")
+    On Error GoTo 0
+    
+    ' Check if the worksheet was found
+    If ws Is Nothing Then
+        MsgBox "Worksheet 'Canadian Stocks Benchmark' not found in the workbook.", vbExclamation
+        Exit Sub
+    End If
+    
+    Dim lastRow As Long
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    
+    Dim i As Long
+    Dim rowIndex As Long
+    rowIndex = 2 ' Initialize the row index to start from row 2
+    
+    For i = 2 To lastRow - 3 Step 1 ' Start from row 2 and increment by 1 (one month)
+        Dim initialDate As Date
+        Dim finalDate As Date
+        Dim initialCashflow As Double
+        Dim finalCashflow As Double
+        Dim cashflows As Variant
+        Dim dates As Variant
+        
+        ' Get the initial date and cashflow
+        initialDate = ws.Cells(i, 1).Value
+        initialBalance = -ws.Cells(i, 2).Value
+        
+        ' Get the final date and cashflow
+        finalDate = ws.Cells(i + 3, 1).Value
+        finalBalance = ws.Cells(i + 3, 2).Value
+        
+        cashflows = initialBalance + ws.Cells(i + 1, 3).Value + ws.Cells(i + 2, 3).Value + ws.Cells(i + 3, 3).Value + finalBalance
+       
+        
+        ' Place the Retruns result in the "Q/Q Return" column in the corresponding row (with the final date)
+        ws.Cells(i + 3, 7).Value = cashflows
+        rowIndex = rowIndex + 1 ' Increment the row index by 1 for the next set of data
+    Next i
+End Sub
+
+
+
+
+
+
+Sub Calculate_cad_benchmark_YY_Return()
+    Dim wb As Workbook
+    Dim ws As Worksheet
+    
+    ' Set the workbook (Excel file)
+    Set wb = ThisWorkbook ' Assumes the code is in the same workbook
+
+    ' Set the worksheet (tab) within the workbook
+    On Error Resume Next
+    Set ws = wb.Worksheets("Canadian Stocks Benchmark")
+    On Error GoTo 0
+    
+    ' Check if the worksheet was found
+    If ws Is Nothing Then
+        MsgBox "Worksheet 'Canadian Stocks Benchmark' not found in the workbook.", vbExclamation
+        Exit Sub
+    End If
+    
+    Dim lastRow As Long
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    
+    Dim i As Long
+    Dim rowIndex As Long
+    rowIndex = 2 ' Initialize the row index to start from row 2
+    
+    For i = 2 To lastRow - 12 Step 1 ' Start from row 2 and increment by 1 (one month)
+        Dim initialDate As Date
+        Dim finalDate As Date
+        Dim initialCashflow As Double
+        Dim finalCashflow As Double
+        Dim cashflows As Variant
+        Dim dates As Variant
+        Dim xirrResult As Double
+        
+        ' Get the initial date and cashflow
+        initialDate = ws.Cells(i, 1).Value
+        initialBalance = -ws.Cells(i, 2).Value
+        
+        ' Get the final date and cashflow
+        finalDate = ws.Cells(i + 12, 1).Value
+        finalBalance = ws.Cells(i + 12, 2).Value
+        
+       
+        cashflows = initialBalance + ws.Cells(i + 1, 3).Value + ws.Cells(i + 2, 3).Value + ws.Cells(i + 3, 3).Value + ws.Cells(i + 4, 3).Value + ws.Cells(i + 5, 3).Value + ws.Cells(i + 6, 3).Value + ws.Cells(i + 7, 3).Value + ws.Cells(i + 8, 3).Value + ws.Cells(i + 9, 3).Value + ws.Cells(i + 10, 3).Value + ws.Cells(i + 11, 3).Value + ws.Cells(i + 12, 3).Value + finalBalance
+       
+        
+        ' Place the Return result in the "Y/Y Return" column in the corresponding row (with the final date)
+        ws.Cells(i + 12, 8).Value = cashflows
+        rowIndex = rowIndex + 1 ' Increment the row index by 1 for the next set of data
+    Next i
+End Sub
+
+
+Sub cad_benchmark_entry()
+    Dim wsDataEntry As Worksheet
+    Dim wsBenchmark As Worksheet
+    Dim lastRow As Long
+    Dim destinationRange As Range
+
+    ' Set references to the worksheets
+    Set wsDataEntry = Worksheets("Data Entry")
+    Set wsBenchmark = Worksheets("Canadian Stocks Benchmark")
+
+    ' Find the last used row in column A of the Benchmark sheet
+    lastRow = wsBenchmark.Cells(wsBenchmark.Rows.Count, "A").End(xlUp).Row
+
+    ' Define the destination range in Benchmark sheet
+    Set destinationRange = wsBenchmark.Range("A" & lastRow + 1).Resize(1, 3)
+
+    ' Copy data from Data Entry sheet and paste it into the destination range
+    wsDataEntry.Range("B4:D4").Copy
+
+    ' Paste data while keeping current format
+    destinationRange.PasteSpecial Paste:=xlPasteFormats
+    Application.CutCopyMode = False ' Clear the clipboard
+
+    ' Assign values directly from Data Entry to the destination range
+    destinationRange.Value = wsDataEntry.Range("B4:D4").Value
+
+    ' Set the number format explicitly for the date column (column A)
+    destinationRange.Cells(1, 1).NumberFormat = "yyyy-mm-dd"
+
+    ' Clear contents in Data Entry sheet
+    wsDataEntry.Range("B4:D4").ClearContents
+End Sub
