@@ -1,0 +1,32 @@
+Sub cad()
+
+Call Sheet2.cad_entry
+Call Sheet2.Calculate_cad_QQ_XIRR
+Call Sheet2.Calculate_cad_YY_XIRR
+Call Sheet2.Calculate_cad_MM_XIRR
+Call Sheet2.Calculate_cad_QQ_Return
+Call Sheet2.Calculate_cad_YY_Return
+
+End Sub
+
+Sub us()
+
+Call Sheet3.us_entry
+Call Sheet3.Calculate_us_QQ_XIRR
+Call Sheet3.Calculate_us_YY_XIRR
+Call Sheet3.Calculate_us_MM_XIRR
+Call Sheet3.Calculate_us_QQ_Return
+Call Sheet3.Calculate_us_YY_Return
+
+End Sub
+
+Sub intl()
+
+Call Sheet4.intl_entry
+Call Sheet4.Calculate_intl_QQ_XIRR
+Call Sheet4.Calculate_intl_YY_XIRR
+Call Sheet4.Calculate_intl_MM_XIRR
+Call Sheet4.Calculate_intl_QQ_Return
+Call Sheet4.Calculate_intl_YY_Return
+
+End Sub
