@@ -1,10 +1,10 @@
 let
-    Source = Excel.Workbook(File.Contents("G:\My Drive\Markdale\Marketing\Quarterly Report Templates\Reporting Dashboard\James Personal\DATA_INVESTMENT.xlsm"), null, true),
-    #"Canadian Stocks_Sheet" = Source{[Item="Canadian Stocks", Kind="Sheet"]}[Data],
-    #"Promoted Headers" = Table.PromoteHeaders(#"Canadian Stocks_Sheet", [PromoteAllScalars=true]),
+    Source = Excel.Workbook(File.Contents("Excel File Path"), null, true),
+    #"Investment 1_Sheet" = Source{[Item="Investment 1", Kind="Sheet"]}[Data],
+    #"Promoted Headers" = Table.PromoteHeaders(#"Investment 1_Sheet", [PromoteAllScalars=true]),
     #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Date", type date}, {"Value", type number}, {"Cashflow", type number}, {"Q/Q XIRR", type number}, {"Y/Y XIRR", type number}, {"M/M XIRR", type number}, {"Q/Q Return", type number}, {"Y/Y Return", type number}}),
     #"Removed Blank Rows" = Table.SelectRows(#"Changed Type", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
-    AddSourceColumn = Table.AddColumn(#"Removed Blank Rows", "Source", each "Canadian Stocks"),
+    AddSourceColumn = Table.AddColumn(#"Removed Blank Rows", "Source", each "Investment 1"),
     #"Renamed Columns" = Table.RenameColumns(AddSourceColumn,{{"Source", "Source"}, {"Value", "CAD Value"}}),
     #"Changed Type1" = Table.TransformColumnTypes(#"Renamed Columns",{{"M/M XIRR", type number}}),
     #"Replaced Value" = Table.ReplaceValue(#"Changed Type1",null,0,Replacer.ReplaceValue,{"Q/Q XIRR", "Y/Y XIRR", "M/M XIRR", "Q/Q Return", "Y/Y Return"})
